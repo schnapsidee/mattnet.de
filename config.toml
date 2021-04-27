@@ -1,0 +1,23 @@
+baseURL = "https://mattnet.de/"
+languageCode = "de-de"
+defaultContentLanguage = "de"
+title = "Mattnet"
+theme = "hallo"
+
+[Author]
+    name = "Matthias"
+
+[params]
+    [[params.links]]
+        icon = "github"
+        title = "Github"
+        url = "https://github.com/schnapsidee"
+    [[params.links]] 
+        iconset = "fas"        
+	icon = "envelope"
+        title = "E-mail"
+        url = "mailto:mail@mattnet.de"
+    [[params.links]]
+        icon = "linkedin"
+        title = "Linked In"
+        url = "https://linkedin.com/in/matthiasmai"
