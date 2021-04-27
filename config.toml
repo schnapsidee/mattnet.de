@@ -8,6 +8,10 @@ theme = "hallo"
     name = "Matthias"
 
 [params]
+    [params.colors]
+        background = "#ffc43c"
+        foreground = "#edf7ff"
+        hover = "#0f0e0a"
     [[params.links]]
         icon = "github"
         title = "Github"
