@@ -2,15 +2,17 @@ name: Build and Deploy
 
 on:
   push:
-    branches:
-      - main
+    branches: [ "main" ]
+    
   workflow_dispatch:
 
 jobs:
   deploy:
     runs-on: ubuntu-latest
+    
     concurrency:
       group: ${{ github.workflow }}-${{ github.ref }}
+      
     steps:
       - name: Install SSH key
         uses: shimataro/ssh-key-action@v2
