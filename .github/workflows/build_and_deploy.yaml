@@ -32,4 +32,4 @@ jobs:
         run: hugo --minify
 
       - name: deploy to webserver
-        run: rsync --delete -rvzh ./public/ deploy@mattnet.de:/home/deploy/mattnet/public/
+        run: rsync --delete -rvzh ./public/ deploy@mattnet.de:/usr/share/nginx/html/mattnet.de/

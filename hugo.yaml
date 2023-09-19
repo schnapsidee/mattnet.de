@@ -36,7 +36,9 @@ params:
     Content: >
       Hi, I'm Matthias (or Matt) and this is my personal blog.
 
-      - I mostly post tutorials and interesting things I come across at work.
+      - I mostly post tutorials and interesting things I come across.
+
+      - I focus on Kubernetes, GitOps and all kinds of automation of IT processes.
       
       - Feel free to check out my Github or contact me directly via email. (In English or German)
 
