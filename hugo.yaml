@@ -1,0 +1,47 @@
+baseURL: https://mattnet.de/
+languageCode: en-us
+title: Mattnet
+theme: PaperMod
+
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+
+minify:
+  disableXML: true
+
+outputs:
+    home:
+        - HTML
+        - JSON
+menu:
+  main:
+    - identifier: archive
+      name: Archive
+      url: archives/
+      weight: 30
+    - identifier: search
+      name: Search
+      url: search/
+      weight: 30
+
+params:
+  title: Mattnet.de
+  ShowReadingTime: true
+  ShowCodeCopyButtons: true
+
+  homeInfoParams:
+    Title: "Home"
+    Content: >
+      Hi, I'm Matthias (or Matt) and this is my personal blog.
+
+      - I mostly post tutorials and interesting things I come across at work.
+      
+      - Feel free to check out my Github or contact me directly via email. (In English or German)
+
+  socialIcons:
+      - name: github
+        url: "https://github.com/schnapsidee"
+      - name: email
+        url: "mailto:mail@mattnet.de"
