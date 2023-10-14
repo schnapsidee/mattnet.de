@@ -181,11 +181,11 @@ The token gets created from the project overview page -> Settings -> Access Toke
 
 Remember that Gitlab Tokens run out after one year, even if no expiration date is set, and therefore need to be replaced on a regular basis.
 
-![Creating a project access token](/assets/img/pulumi_argo_gitlab/token_create.png)
+![Creating a project access token](images/token_create.png)
 
 We then create an environment variable to store the token and access it from our CI job (Settings -> CI/CD -> Variables).
 
-![Creaating a CI variable](../../assets/img/pulumi_argo_gitlab/token_var.png)
+![Creating a CI variable](images/token_var.png)
 
 Gitlab Tokens need to be in the format username:token to authenticate. If you create a project access token, you will not have a username, in this case you can set "oath2" as the user.
 
