@@ -7,8 +7,6 @@ tags: ["GitOps", "ArgoCD", "Pulumi", "Gitlab", "Kubernetes"]
 ShowToc: true
 ---
 
-# Generating K8s Manifests with Pulumi and deploying with Gitlab CI and ArgoCD
-
 The first question of course is: Why?
 
 We've been using kustomize, Helm and ArgoCD to deploy services to Kubernetes pretty much since day one after we decided to move to Kubernetes. It works, it's reliable, and it's fairly easy to understand.
